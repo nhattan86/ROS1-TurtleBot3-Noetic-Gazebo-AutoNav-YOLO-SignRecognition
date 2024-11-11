@@ -1,0 +1,14 @@
+material Flag_of_Vietnam
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Flag_of_Vietnam.png
+      }
+    }
+  }
+}
+
