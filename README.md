@@ -4,3 +4,5 @@ This project uses ROS Noetic on Ubuntu 20.04 to simulate a TurtleBot3 autonomous
 ADVISOR: PhD Le Anh Vu
 
 SUPPORTER: Le Hai Dang
+
+https://www.youtube.com/watch?v=D6Koh3sSJgw
