@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="Flag_of_Vietnam">
+    <static>true</static>
+    <link name="box">
+      <pose>0 0 0 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+              <size>3.84 0.15 2.16</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+              <size>3.84 0.15 2.16</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://turtlebot3_empty_world/Flag_of_Vietnam/materials/scripts</uri>
+            <uri>model://turtlebot3_empty_world/Flag_of_Vietnam/materials/textures</uri>
+            <name>Flag_of_Vietnam</name>
+          </script>
+        </material>
+      </visual>
+    </link>    
+  </model>
+</sdf>
